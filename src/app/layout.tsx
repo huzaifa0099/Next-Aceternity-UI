@@ -16,7 +16,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Create Next App",
+  title: "Next-Aceternity-UI",
   description: "Next-Aceternity-UI",
 };
 
@@ -30,6 +30,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        
         <div className="relative w-full flex items-center justify-center">
         <Navbar />
         </div>
