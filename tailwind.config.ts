@@ -41,11 +41,11 @@ const config: Config = {
   theme: {
     extend: {
       animation: {
-        
         spotlight: "spotlight 2s ease .75s 1 forwards",
         scroll: "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite"
       },
       keyframes: {
+       
         scroll: {
           to: {
             transform: "translate(calc(-50% - 0.5rem))",
