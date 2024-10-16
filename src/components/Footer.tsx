@@ -12,7 +12,7 @@ function Footer() {
           </p>
         </div>
         <div>
-          <h2 className="text-white text-lg font-semibold mb-4 ">
+          <h2 className="text-white text-lg font-semibold mb-4">
             Quick Links
           </h2>
           <ul>
